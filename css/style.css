@@ -1,0 +1,239 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*nav字體*/
+.nav-item{
+	font-family: 'Abril Fatface', cursive;
+	color: #254651;
+}
+
+p {
+	font-size: 16px;
+}
+
+/*nav logo*/
+.navbar-brand img {
+	height: 60px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left: 50px!important;
+	padding-right: 50px!important; 
+    background-color: #ffffff;
+}
+}
+
+/*幻燈片*/
+.banner {
+	margin-top: 76px;
+}
+
+.banner .container-fluid {
+	padding:0!important;
+}
+
+/*About*/
+.about {
+	padding:100px 0;
+	background-color: #ffffff; 
+}
+
+.about img {
+	box-shadow: 12px 12px 7px #ececec;
+    width: 500px;
+}
+
+.title {
+	font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 2px;
+    color: #254651;
+}
+
+.title_line {
+	border-color:#ffffff;
+}
+
+.story {
+	padding: 50px 0;
+	font-size: 18px;
+}
+
+.story span {
+	font-style: italic;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+}
+.title_line {
+	margin-bottom: 50px;
+}
+
+/*My work 瀑布流*/
+@media (min-width: 768px) {
+.col-lg-3 img{
+	display: block;
+	height: auto;
+	max-width: 100%;
+	box-shadow: 12px 12px 7px #ececec;
+	margin-bottom: 30px;
+}
+}
+
+@media (min-width: 480px) {
+	.col-lg-3 img{
+		display: block;
+		height: auto;
+		max-width: 100%;
+		box-shadow: 12px 12px 7px #ececec;
+		margin-bottom: 30px;
+}
+}
+
+@media (min-width: 320px) {
+	.col-lg-3 img{
+		display: block;
+		height: auto;
+		max-width: 100%;
+		box-shadow: 12px 12px 7px #ececec;
+		margin-bottom: 30px;
+}
+}
+	
+.col-lg-3 img{
+	width: 300px;
+}
+
+.mywork .row{
+	justify-content: center;
+}
+
+/*My services*/
+.myservices{
+    padding:100px 0;
+	background-color: #ffffff; 
+}
+
+.myservices .card {
+	background-color: #ffffff;
+	border-color: #ececec;
+	width: 400px;
+	height: 300px;
+	margin-bottom: 10px;
+	font-style: italic;
+	align-items: center;
+	margin-right: 0;
+	box-shadow: 12px 12px 7px #ececec;
+	justify-content: center;
+}
+
+
+
+@media (min-width: 768px) {
+.myservices img {
+	width: 270px;
+	height: auto;
+	max-width: 100%;
+	margin-top: 25px;
+	margin-bottom:20px;
+}
+}
+
+@media (min-width: 480px) {
+.myservices img {
+	width: 270px;
+	height: auto;
+	max-width: 100%;
+	margin-top: 25px;
+	margin-bottom:20px;
+}
+}
+
+@media (min-width: 320px) {
+.myservices img {
+	width: 270px;
+	height: auto;
+	max-width: 100%;
+	margin-top: 25px;
+	margin-bottom:20px;
+}
+}
+
+.mywork .row{
+	justify-content: center;
+}
+
+.service_name {
+	padding: 10px;
+}
+
+.myservices .row{
+	justify-content: center;
+}
+
+/*Contact*/
+.contact {
+	height:750px;
+	padding-top: 60px;
+	background-image: url(../img/contact_bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+    
+}
+
+.contact .title {
+	color:#254651;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#254651;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #bbcbd8d8;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #ffffff;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+    background-color: #bbcbd8d8;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #ffffff;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: #254651;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #254651;
+}
+
